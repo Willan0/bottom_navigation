@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:silver_app/utils/extension.dart';
 
 class Page2 extends StatefulWidget {
   const Page2({Key? key}) : super(key: key);
@@ -16,7 +17,7 @@ class _Page2State extends State<Page2> {
         title: const Text('Profile'),
       ),
       body: Center(
-        child: Text(counter.toString()),
+        child: Text(counter.toString().getComment(counter)),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
