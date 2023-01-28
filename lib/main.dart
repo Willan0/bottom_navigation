@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:silver_app/pages/bottom_navigation.dart';
 import 'package:silver_app/pages/drawer_test.dart';
-import 'package:silver_app/pages/tab_bar.dart';
 
 void main(){
   runApp(const MyApp());
